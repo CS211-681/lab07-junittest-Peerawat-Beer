@@ -45,6 +45,7 @@ class StudentListTest {
     @Test
     void testViewGradeOfId() {
         String grade = studentList.viewGradeOfId("6700000001");
+        assertEquals("A", grade);
     }
 
 }
